@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "common_codes"
+version = "1.0"
+description = "Common codes that will be used across the project"
+authors = [
+    { name = "Murtuza Saifee", email = "murtuzasaifee23@gmail.com" }
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["common_codes", "common_codes.*"]
