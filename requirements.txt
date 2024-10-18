@@ -11,3 +11,4 @@ tensorflow-macos
 bs4
 flask
 streamlit
+openpyxl
