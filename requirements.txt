@@ -14,3 +14,4 @@ streamlit
 openpyxl
 xgboost
 nltk
+gensim
